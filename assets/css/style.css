@@ -2,6 +2,18 @@
   margin: 0;
   padding: 0;
 }
+.text_title {
+  font-size: 4rem;
+}
+
+.text_subtitle {
+  font-size: 2rem;
+}
+
+.text_p {
+  font-size: 1.5rem;
+}
+
 /* Home */
 .home-page {
   height: 100vh;
@@ -34,7 +46,7 @@
 .nav-item {
   margin: 0px 25px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 .nav-item:hover {
   text-decoration: underline;
@@ -62,7 +74,7 @@
   padding: 15px 40px;
   text-decoration: none;
   font-size: 36px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas Neue", sans-serif;
   background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
   border: 0;
   color: #fff;
